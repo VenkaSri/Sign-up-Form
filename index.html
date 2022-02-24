@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photography inquiry</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="left-container">
-        <div class="company-info">
-            <div class="logo"><img src="images/logo.png" alt="company logo"></div>
-            <div class="name">ODIN</div>
-        </div>
+      <div class="company-info">
+        <div class="logo"><img src="images/logo.png" alt="company logo" /></div>
+        <div class="name">ODIN</div>
+      </div>
     </div>
     <div class="right-container">
-        <div class="right">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sint ipsum illum beatae maiores? Fuga voluptates odit sequi. Animi molestias temporibus quas nemo consequatur inventore nostrum officia quos eaque fugit!</p>
-            <p>Lorem ipsum</p>
-        </div>
-        <div class="center">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sint ipsum illum beatae maiores? Fuga voluptates odit sequi. Animi molestias temporibus quas nemo consequatur inventore nostrum officia quos eaque fugit!</p>
-            <p>Lorem ipsum</p>
-        </div>
-        <div class="bottom"></div>
+      <div class="right">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sint
+          ipsum illum beatae maiores? Fuga voluptates odit sequi. Animi
+          molestias temporibus quas nemo consequatur inventore nostrum officia
+          quos eaque fugit!
+        </p>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="center">
+        <p>Let's do this!</p>
+        <form action="#" method="GET" id="sign-up-form">
+          <div class="left-inputs">
+            <div>
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" required/>
+            </div>
+            <div>
+              <label for="userEmail">Email</label>
+              <input type="email" id="userEmail" required/>
+            </div>
+            <div>
+              <label for="pass">Password</label>
+              <input type="password" id="pass" required/>
+            </div>
+          </div>
+          <div class="right-inputs">
+            <div>
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" required />
+            </div>
+            <div>
+              <label for="num">Phone Number</label>
+              <input type="number" id="num" required/>
+            </div>
+            <div>
+              <label for="cPass">Confirm Password</label>
+              <input type="password" id="cPass" required/>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="bottom">
+        <input type="submit" form="sign-up-form" value="Create Account"/>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
