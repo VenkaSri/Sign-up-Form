@@ -12,7 +12,7 @@
     <div class="left-container">
       <div class="company-info">
         <div class="logo"><img src="images/logo.png" alt="company logo" /></div>
-        <div class="name">ODIN</div>
+        <div class="cName">ODIN</div>
       </div>
     </div>
     <div class="right-container">
@@ -28,39 +28,44 @@
       <div class="center">
         <p>Let's do this!</p>
         <form action="#" method="GET" id="sign-up-form">
-          <div class="left-inputs">
+          <div class="name">
             <div>
               <label for="firstName">First name</label>
-              <input type="text" id="firstName" required/>
+              <input type="text" id="firstName" required placeholder="FIRST NAME"/>
             </div>
-            <div>
-              <label for="userEmail">Email</label>
-              <input type="email" id="userEmail" required/>
-            </div>
-            <div>
-              <label for="pass">Password</label>
-              <input type="password" id="pass" required/>
-            </div>
-          </div>
-          <div class="right-inputs">
             <div>
               <label for="lastName">Last name</label>
-              <input type="text" id="lastName" required />
+              <input type="text" id="lastName" required placeholder="LAST NAME"/>
+            </div>
+          </div>
+          <div class="email-phone">
+            <div>
+              <label for="userEmail">Email</label>
+              <input type="email" id="userEmail" required placeholder="EMAIL"/>
             </div>
             <div>
               <label for="num">Phone Number</label>
-              <input type="number" id="num" required/>
+              <input type="number" id="num" required placeholder="PHONE NUMBER"/>
+            </div>
+          </div>
+          <div class="password">
+            <div>
+              <label for="pass">Password</label>
+              <input type="password" id="pass" required placeholder="PASSWORD"/>
             </div>
             <div>
               <label for="cPass">Confirm Password</label>
-              <input type="password" id="cPass" required/>
+              <input type="password" id="cPass" required placeholder="CONFRIM PASSWORD"/>
             </div>
           </div>
         </form>
       </div>
+      
       <div class="bottom">
-        <input type="submit" form="sign-up-form" value="Create Account"/>
+        <div class="btn"><input type="submit" form="sign-up-form" value="Create Account"/></div>
+        <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
