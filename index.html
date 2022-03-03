@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photography inquiry</title>
+    <title>Sign-Up</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon-16x16.png"/>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/scripts.js" defer></script>
@@ -34,42 +35,44 @@
       </div>
       <div class="center">
         <p>Let's do this!</p>
-        <form id="myForm" action="#" method="GET" name="theForm">
+        <form id="myForm" action="/" method="GET" name="theForm">
           <div class="name">
             <div>
               <label for="firstName">First name</label>
-              <input type="text" id="firstName" required placeholder="FIRST NAME"/>
+              <input type="text" id="firstName"  placeholder="FIRST NAME"/>
             </div>
             <div>
               <label for="lastName">Last name</label>
-              <input type="text" id="lastName" required placeholder="LAST NAME"/>
+              <input type="text" id="lastName"  placeholder="LAST NAME"/>
             </div>
           </div>
           <div class="email-phone">
             <div>
               <label for="userEmail">Email</label>
-              <input type="email" id="userEmail" required placeholder="EMAIL"/>
+              <input type="email" id="userEmail"  placeholder="EMAIL"/>
             </div>
             <div>
               <label for="num">Phone Number</label>
-              <input type="number" id="num" required placeholder="PHONE NUMBER"/>
+              <input type="number" id="num"  placeholder="PHONE NUMBER"/>
             </div>
           </div>
           <div class="password">
             <div>
               <label for="pass">Password</label>
-              <input type="password" id="pass" required placeholder="PASSWORD"/>
+              <input type="password" id="pass"  placeholder="PASSWORD"/>
             </div>
             <div>
               <label for="cPass">Confirm Password</label>
-              <input type="password" id="cPass" required placeholder="CONFRIM PASSWORD"/>
+              <input type="password" id="cPass"  placeholder="CONFRIM PASSWORD"/>
             </div>
           </div>
         </form>
       </div>
       
       <div class="bottom">
-        <div class="btn">Create Account</div>
+        <p class="erMsg"></p>
+        <button type="submit" form="myForm">Create Account</button>
+
         <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>

@@ -178,7 +178,7 @@ form label {
 
 
 
-.btn {
+button {
   background-color: #596d48;
   color: white;
   height: 60px;
@@ -188,9 +188,11 @@ form label {
   align-items: center;
   border-radius: 10px;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 
-.btn:hover {
+button:hover {
   background-color: #718a5b;
 }
 
@@ -211,6 +213,10 @@ form label {
 
 .error {
   border-bottom: 1px solid red;
+}
+
+.erMsg {
+  color: red;
 }
 
 
